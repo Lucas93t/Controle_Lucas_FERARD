@@ -15,4 +15,8 @@ public class Calculatrice {
     public float mult(float operande1, float operande2) {
         return operande1 * operande2;
     }
+
+    public float minus(float a, float b) {
+        return a - b;
+    }
 }
