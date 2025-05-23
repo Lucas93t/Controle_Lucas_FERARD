@@ -31,13 +31,13 @@ public class CalculatriceTest {
     }
 
     @Test
-    void testMinus() {
+    public void testMinus() {
         Calculatrice clc = new Calculatrice();
         assertEquals(4.0f, clc.minus(7.0f, 3.0f));
     }
 
     @Test
-    void testMinusNegatif() {
+    public void testMinusNegatif() {
         Calculatrice clc = new Calculatrice();
         assertEquals(-2.0f, clc.minus(3.0f, 5.0f));
 
