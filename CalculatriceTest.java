@@ -36,5 +36,11 @@ public class CalculatriceTest {
         assertEquals(4.0f, c.minus(7.0f, 3.0f));
     }
 
+    @Test
+    void testMinusNegative() {
+        Calculatrice c = new Calculatrice();
+        assertEquals(-2.0f, c.minus(3.0f, 5.0f));
+
+    }
 
 }
