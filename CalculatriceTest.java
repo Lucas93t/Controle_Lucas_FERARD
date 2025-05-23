@@ -37,7 +37,7 @@ public class CalculatriceTest {
     }
 
     @Test
-    void testMinusNegative() {
+    void testMinusNegatif() {
         Calculatrice c = new Calculatrice();
         assertEquals(-2.0f, c.minus(3.0f, 5.0f));
 
