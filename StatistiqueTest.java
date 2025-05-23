@@ -1,12 +1,2 @@
-import
-
-
 public class StatistiqueTest {
-
-
-
-
-
-
-
 }
