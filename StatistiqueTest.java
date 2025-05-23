@@ -7,4 +7,9 @@ import static org.mockito.Mockito.*;
 
 
 public class StatistiqueTest {
+
+    Calculatrice mockCalc;
+    Statistique stat;
+
+    
 }
