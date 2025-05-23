@@ -1,0 +1,3 @@
+D'après ce rapport de couverture de code, on voit que certaines parties du code ne sont pas testées.
+Il y a deux types ici: Le premier concerne la couverture des instructions et le deuxième la couverture des branches.
+Ici, on voit par exemple que la méthode mult() n'est sûrement pas couverte par un test.

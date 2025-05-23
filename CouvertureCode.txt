@@ -1,0 +1,12 @@
+D'après ce rapport de couverture de code, on voit que certaines parties du code ne sont pas testées.
+Il y a deux types ici, le premier concerne la couverture des instructions et le deuxième la couverture des branches.
+Ici, on voit par exemple que la méthode mult() n'est sûrement pas couverte par un test car elle est à 0%.
+De même, dans la méthode div(), une condition vérifiant si le dénominateur est égal à 0 est une branche du code qui ne sera
+pas testée si aucun test ne vise à provoquer une division par zéro, d'où sa case à 100%.
+Pour le reste, en ce qui concerne les tests sur les instructions, on voit que l'ensemble des méthodes ont été testée
+et que toutes les branches ont été couvertes.
+Pour améliorer ce résultat, il faut déjà ajouter les tests manquants (au moins un par méthode), à savoir ici testMult().
+Aussi, il faudrait ajouter, dans notre cas, un test vérifiant si le dénominateur est égal à zéro pour
+la méthode div(). Il faut donc vérifier l'ensemble des conditions de chaque méthode afin d'améliorer le résultat
+de la partie "missed branches".
+Au final, on voit qu'on a couvert par des tests 83% des instructions.
