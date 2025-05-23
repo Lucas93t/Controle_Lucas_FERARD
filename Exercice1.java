@@ -4,16 +4,19 @@ import Claculatrice.java;
 
 public class CalculatriceTest {
 
-    @BeforeEach
-    Calculatrice c = new Calculatrice
+
 
     @Test
     public void testAdd() {
+        Calculatrice c = new Calculatrice
         assertEquals(8.0f, c.add(5.0f, 3.0f));
     }
 
-
-
+    @Test
+    public void testDiv(){
+        Calculatrice c = new Calculatrice
+        assertEquals(2.0f, c.div(4.0f, 2.0f));
+    }
 
 
 }
