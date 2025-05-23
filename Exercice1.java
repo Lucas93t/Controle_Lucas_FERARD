@@ -25,4 +25,11 @@ public class CalculatriceTest {
             assertEquals(10.0f, c.mult(5.0f, 2.0f))
     }
 
+     @Test
+    public void testDivByZero() {
+        Calculatrice c = new Calculatrice();
+        assertThrows(ArithmeticException.class, () -> c.div(4.0f, 0.0f));
+    }
+
+    
 }
